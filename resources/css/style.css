@@ -1,0 +1,156 @@
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+
+                    /* Header */
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.banner img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.banner a {
+  margin-right: 25px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+
+
+                       /* Main Body */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+                      /*Mission*/
+.mission {
+  position: relative;
+  top: 60px;
+  height: 700px;
+  width: 1200px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.mission-content {
+  background-color: black;
+  width: 100%;
+
+}
+
+.mission h4, h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+
+                      /* Products */
+.products {
+  margin-top: 70px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
+}
+
+.products img {
+  height: 200px;
+  width: 300px;
+}
+
+.image {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto 11px;
+}
+
+.products h4 {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+
+                      /* Locations */
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px
+}
+
+.locations h2 {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.location-addresses {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
+.address {
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.address h4 {
+  font-weight: normal;
+}
+
+
+
+
+                  /* Footer */
+footer {
+  width: 100%;
+}
+
+.btm-banner h2 {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
+}
